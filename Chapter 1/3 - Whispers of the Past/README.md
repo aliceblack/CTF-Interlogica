@@ -13,3 +13,6 @@ Finding:
 ![solution.JPG](solution.JPG)
 
 NTRLGC{this_1z_da_w4y}
+
+they also provide some usefulhints for CTFs: 
+> https://www.aperisolve.com/cheatsheet
