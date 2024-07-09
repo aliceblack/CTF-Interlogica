@@ -1,3 +1,4 @@
+# Echoes of the past - Stereogram
 By viewing the image as a series of horizontal (NOT vertical) slides, you can see that there is a difference between each one and the next.
 Then I split the images to have individual frames with Python using this code:
 
@@ -42,7 +43,7 @@ for i in Y_points:
 
 ```
 And I get the single images:
-![immagine](https://github.com/aliceblack/CTF-Interlogica/assets/9288402/5df43247-e208-4ae1-9b55-6d1528ea26f8)
+![echoesofthepast.jpg](echoesofthepast.jpg)
 
 And calculate the difference for eache couple:
 ```import cv2
@@ -89,3 +90,14 @@ I merge them with Paint to get this:
 ![immagine](https://github.com/aliceblack/CTF-Interlogica/assets/9288402/e951ac74-0067-413e-969f-80a6dcec60e2)
 
 PS: It's m4g1c, not mm4glc
+
+# Official solution
+
+This challenge is a simple stereogram that can be solved by many tools online
+One possible website: https://magiceye.ecksdee.co.uk/
+
+flag: NTRLGC{m4g1c_3y3z}
+
+If you are one of those lucky people, you can just read the flag from the image too :D
+
+![photo1720185345.jpeg](photo1720185345.jpeg)

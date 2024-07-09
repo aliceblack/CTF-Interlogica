@@ -1,5 +1,7 @@
 # Whispers of the Past
 
+Flag is hidden in the blue 0 bit plane.
+
 Using an online service we were able to solve the challenge.
 
 Aperi'Solve is a platform which performs layer analysis on image.
@@ -14,5 +16,7 @@ Finding:
 
 NTRLGC{this_1z_da_w4y}
 
-they also provide some usefulhints for CTFs: 
+They also provide some useful hints for CTFs: 
 > https://www.aperisolve.com/cheatsheet
+> https://georgeom.net/StegOnline/checklist
+> https://mokhdzanifaeq.github.io/2016/12/14/cybersocks-regional-2016-color-writeup/
