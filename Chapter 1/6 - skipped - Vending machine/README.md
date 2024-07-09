@@ -1,13 +1,17 @@
 # Vending machine
 There is a web page and an ssh access.  
 An ssh for guest guest at:  
-> ssh guest@<ip> -p <port>  
+``` 
+ssh guest@<ip> -p <port>  
+```
+
+
+
+![console_1.JPG](console_1.JPG)
 
 Jam the vending machine console buying something then enter maintenance mode.
 
 We stopped at maintenance access.
-
-![console_1.JPG](console_1.JPG)
 
 # Official solution
 ## The (simplified) Vending Machine
@@ -34,8 +38,12 @@ To bypass restricted access to "maintenance," simply use any uppercase character
 2. **Initialization**
    - When prompted if you need to initialize the vending machine, type `y`.
 
+You can do some actions like creating a conf file... we decide to create the file.
+
 3. **Create Configuration File**
    - Create `vmachine.conf`.
+
+You will need the file just to use vim and the exit vim to go to the file system....
 
 4. **Navigate Filesystem**
    - In `vim`, type `:Sex` to navigate the filesystem.
@@ -91,6 +99,9 @@ Bacause now you know that you can use commands and backticks...
 
 
 12. **Final Commands**:
+
+Commands to show and open files while using `>&2` to redirect the output:
+
     ```shell
     guest@e1c5e03f6f35:~$ sudo -l >&2
     Matching Defaults entries for guest on e1c5e03f6f35:
