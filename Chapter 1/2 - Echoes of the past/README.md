@@ -1,4 +1,8 @@
 # Echoes of the past - Stereogram
+
+The start image is this one:
+![echoesofthepast.jpg](echoesofthepast.jpg)
+
 By viewing the image as a series of horizontal (NOT vertical) slides, you can see that there is a difference between each one and the next.
 Then I split the images to have individual frames with Python using this code:
 
@@ -42,8 +46,6 @@ for i in Y_points:
         count += 1
 
 ```
-And I get the single images:
-![echoesofthepast.jpg](echoesofthepast.jpg)
 
 And calculate the difference for eache couple:
 ```import cv2
@@ -89,7 +91,7 @@ Which product this ones:
 I merge them with Paint to get this:
 ![immagine](https://github.com/aliceblack/CTF-Interlogica/assets/9288402/e951ac74-0067-413e-969f-80a6dcec60e2)
 
-PS: It's m4g1c, not mm4glc
+PS: It's m4g1c, not m4glc
 
 # Official solution
 
